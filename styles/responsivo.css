@@ -577,7 +577,9 @@ utilize como referência os breakpoints @media abaixo*/
     }
 
     .formcontato--esquerda img{            
-        height: auto;    
+        width: auto;
+        height: 350px;
+        align-self: center;    
     }
     .formcontato__text{
         margin-left: 16px;

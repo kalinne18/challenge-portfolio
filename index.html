@@ -16,6 +16,14 @@
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
+        <!-- Adicione o script EmailJS -->
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+            (function(){
+                emailjs.init("Dn81RQk8SAXZCkcU0");
+            })();
+        </script>
+
     <title>Portifólio Pessoal</title>
 </head>
 
@@ -50,12 +58,15 @@
                         participando no projeto Oracle ONE na Alura.</h3>
                     <ul class="title__network">
                         <!-- Ponha os links de suas redes sociais favoritas -->
-                        <li class="title__network__item"><a href="https://github.com/kalinne18">Github <img
-                                    src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><a
-                                href="https://www.linkedin.com/in/kalinne-ferreira/">Linkedin <img
-                                    src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Curriculo <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item">
+                            <a href="https://github.com/kalinne18" rel="external" target="_blank" >Github <img src="assets\arrow.png"></a>
+                        </li>
+                        <li class="title__network__item">
+                            <a href="https://www.linkedin.com/in/kalinne-ferreira/" rel="external" target="_blank" >Linkedin <img src="assets\arrow.png"></a>
+                        </li>
+                        <li class="title__network__item">
+                            <a href="https://drive.google.com/file/d/1Z8zRxrOQy9aEcz-bYoQLI1xvaCBVKWna/view?usp=sharing"rel="external" target="_blank" >Curriculo <img src="assets\arrow.png"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -74,8 +85,7 @@
                     inscrever. Agora, faço parte da Turma 6 do Programa ONE. É uma grande oportunidade e será um passo
                     significativo na minha transição de carreira para a área de tecnologia.</p>
 
-                <!-- Caso queira colocar sua própria assinatura, insira aqui! 
-                <img src="assets\signature.png">-->
+                <!-- Caso queira colocar sua própria assinatura, insira aqui!>-->
             </div>
         </section>
 
@@ -238,13 +248,14 @@
                     <h3 class="experience__text">Alura - Lógica de Programação</h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/kalinne18/jogo-numero-secreto/tree/main"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a
-                                href="https://jogo-numero-secreto-chi-green.vercel.app/"><button
-                                    class="experiencia__botao--demo">Ver
-                                    demo</button></a></span>
+                        <span class="experience__repo">
+                            <a href="https://github.com/kalinne18/jogo-numero-secreto/tree/main"rel="external" target="_blank" ><button class="experiencia__botao--repo">Repositório</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="https://jogo-numero-secreto-chi-green.vercel.app/"rel="external" target="_blank" ><button class="experiencia__botao--demo">Ver demo</button>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -257,12 +268,13 @@
                     <h3 class="experience__text">Alura - HTML e CSS </h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/kalinne18/projeto-pagina-web-ONE"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href="https://portifolio-five-rho-98.vercel.app/"><button
-                                    class="experiencia__botao--demo">Ver
-                                    demo</button></a></span>
+                        <span class="experience__repo"><a href="https://github.com/kalinne18/projeto-pagina-web-ONE" rel="external" target="_blank" ><button class="experiencia__botao--repo">Repositório</button>
+                        </a>
+                    </span>
+                        <span class="experience__demo">
+                            <a href="https://portifolio-five-rho-98.vercel.app/" rel="external" target="_blank"><button class="experiencia__botao--demo">Ver demo</button>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -275,13 +287,13 @@
                     <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/kalinne18/Challenge-Decodificador"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a
-                                href="https://kalinne18.github.io/Challenge-Decodificador/"><button
-                                    class="experiencia__botao--demo">Ver
-                                    demo</button></a></span>
+                        <span class="experience__repo"><a href="https://github.com/kalinne18/Challenge-Decodificador" rel="external" target="_blank" ><button class="experiencia__botao--repo">Repositório</button>
+                        </a>
+                    </span>
+                        <span class="experience__demo">
+                            <a href="https://kalinne18.github.io/Challenge-Decodificador/"rel="external" target="_blank"><button class="experiencia__botao--demo">Ver demo</button>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -296,15 +308,17 @@
                 </div>
                 <div class="formcontato__text">
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
-                    <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais
-                        rápido possível. </h3>
-                    <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem"
-                            placeholder="Sua mensagem"></textarea>
-                        <button class="formcontato__botao">Enviar mensagem</button>
+                    <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
+                    <form class="formcontato__form" id="formContato">
+                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome" name="nome">
+                        <div class="error-message" id="error-nome"></div>
+                        <input class="formcontato__input" type="email" id="email" placeholder="Email" name="email">
+                        <div class="error-message" id="error-email"></div>
+                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" name="assunto">
+                        <div class="error-message" id="error-assunto"></div>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <div class="error-message" id="error-mensagem"></div>
+                        <button class="formcontato__botao" type="submit" disabled>Enviar mensagem</button>
                     </form>
                 </div>
             </div>

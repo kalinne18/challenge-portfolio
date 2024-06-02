@@ -470,7 +470,11 @@ section.formcontato{
     cursor: pointer;
     background-color: var(--cor-hover-dm);
 }
-
+.error-message {
+    color: blue;
+    font-size: 0.9em;
+    margin-top: 0.4em;
+}
 /*footeer*/
 
 section.footer {

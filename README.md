@@ -1,23 +1,26 @@
-# Challenge ONE | Front End - Portfólio
+# 💥Challenge ONE | Front End - Portfólio💥
 ---
+##  📚 Sobre o desafio 📚
+---
+#### 🔹Desafio desenvolvido pelo Programa ONE, parceria entre Oracle e Alura. Este projeto tem como objetivo, a criação de um portfólio pessoal responsivo para desktop, tablet e smartphone.
+---
+## ⭐ Resultado do Projeto ⭐
 
 <p align="center" >
      <img width="600" heigth="600" src="/assets/Portifolio - Finalizado.png">
 </p>
 
-###  Primeiros Passos:
----
-#### 🔹Marque esse projeto com uma ⭐
-#### 🔹Siga as orientações do que temos neste repositório 📚
 
 
-### Analisando nosso repositório!
 ---
-### Este é o repositório base do nosso projeto, nele voce encontrará:
-#### 🔹index.html: Documento HTML finalizado que você pode utilizar em seu projeto. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas. Sinta-se a vontade para executar o seu próprio HTML caso deseje;
-#### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
-#### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
-#### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
+## 🛠️Tecnologia Utilizada 🛠️
+- HTML5
+- CSS
+- JavaScript
+
+
+
+
 
 
 
